@@ -1,0 +1,10 @@
+\documentclass{article}
+\usepackage{mathtools}
+\usepackage{setspace}
+
+\begin{document}
+\doublespacing
+\chapter*{}
+\section*{}
+
+\end{document}

@@ -1,0 +1,39 @@
+package [% name %];
+
+use strict;
+use warnings;
+
+use parent qw(Exporter);
+use fields qw();
+
+#require m;
+#our @ISA = qw(m);
+
+# default exports
+our @EXPORT = qw();
+# optional exports
+our @EXPORT_OK = qw();
+# groups of exports (T1 => [qw()])
+our %EXPORT_TAGS = ();
+
+sub new
+{
+	my ($class,$args) = @_;
+
+	my $self = bless {}, $class;
+
+	return $self;
+}
+
+#our AUTOLOAD;
+#sub AUTOLOAD {
+	#my $self = shift;
+	#my $called = $AUTOLOAD =~ s/.*:://r;
+#}
+
+#sub DESTROY { # use empty if using AUTOLOAD
+	#local ($.,$@,$!,$^E,$?); # local status variables
+	#my $self = shift;
+#}
+
+1;

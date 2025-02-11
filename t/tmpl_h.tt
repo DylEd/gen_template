@@ -1,0 +1,4 @@
+#ifndef __[% name.upper %]
+#define __[% name.upper %]
+
+#endif /* __[% name.upper %] */
